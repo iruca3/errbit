@@ -41,6 +41,7 @@ Errbit::Config = Configurator.run({
   # smtp settings
   smtp_address:              ['SMTP_SERVER'],
   smtp_port:                 ['SMTP_PORT'],
+  smtp_tls:                  ['SMTP_TLS'],
   smtp_authentication:       ['SMTP_AUTHENTICATION'],
   smtp_user_name:            ['SMTP_USERNAME', 'SENDGRID_USERNAME'],
   smtp_password:             ['SMTP_PASSWORD', 'SENDGRID_PASSWORD'],

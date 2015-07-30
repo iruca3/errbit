@@ -8,6 +8,7 @@ if Errbit::Config.email_delivery_method == :smtp
     :user_name      => Errbit::Config.smtp_user_name,
     :password       => Errbit::Config.smtp_password,
     :domain         => Errbit::Config.smtp_domain,
+    :tls            => Errbit::Config.smtp_tls,
   }
 end
 
